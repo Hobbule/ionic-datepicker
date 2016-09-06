@@ -118,24 +118,12 @@
   padding: 0;
 }
 
-.ionic_datepicker_modal .header, .ionic_datepicker_modal .footer {
-  background-color: #009688;
-}
-
-.ionic_datepicker_modal .header .title, .ionic_datepicker_modal .header .button, .ionic_datepicker_modal .footer .title, .ionic_datepicker_modal .footer .button {
-  color: #ffffff;
-}
-
-.ionic_datepicker_modal .footer .button-block {
-  margin: 0;
-}
-
 .ionic_datepicker_modal .today {
-  border: 1px solid #009688;
+  border-width: 1px;
+  border-style: solid;
 }
 
 .ionic_datepicker_modal .selected_date {
-  background-color: #009688;
   color: #fff;
   font-weight: bold;
 }
@@ -149,9 +137,15 @@
   padding: 1px 5px;
 }
 
+.ionic_datepicker_modal .right_arrow button, .ionic_datepicker_modal .left_arrow button {
+  min-width: auto;
+}
+
+
 .ionic_datepicker_modal .month_select, .ionic_datepicker_modal .year_select {
-  border: none;
-  border-bottom: 1px solid #009688;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
   padding: 0;
 }
 
@@ -168,7 +162,6 @@
 
 .ionic_datepicker_modal .month_select:after, .ionic_datepicker_modal .year_select:after {
   right: 5px;
-  color: #009688;
 }
 
 .ionic_datepicker_modal .padding_left_5px {
@@ -186,10 +179,6 @@
 
 .ionic_datepicker_modal .font_bold {
   font-weight: bold;
-}
-
-.ionic_datepicker_modal .font_22px {
-  font-size: 22px;
 }
 
 .platform-android .ionic_datepicker_modal .bar .title.title-left {
