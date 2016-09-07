@@ -101,7 +101,7 @@
 
 .ionic_datepicker_popup .popup-body .show_nav .prev_btn_section button {
   padding: 0;
-  min-width: auto;
+  min-width: initial;
 }
 
 .ionic_datepicker_popup .popup-body .show_nav .next_btn_section {
@@ -111,7 +111,7 @@
 
 .ionic_datepicker_popup .popup-body .show_nav .next_btn_section button {
   padding: 0;
-  min-width: auto;
+  min-width: initial;
 }
 
 .ionic_datepicker_popup .row + .row {
@@ -138,7 +138,7 @@
 }
 
 .ionic_datepicker_modal .right_arrow button, .ionic_datepicker_modal .left_arrow button {
-  min-width: auto;
+  min-width: initial;
 }
 
 
